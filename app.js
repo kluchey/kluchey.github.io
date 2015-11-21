@@ -3,7 +3,7 @@
 };
 
 $(document).ready(function(){
-	$('#everything').fadeIn(600);
+	$('#everything').fadeIn(1000);
 });
 
 $(document).ready(main);
