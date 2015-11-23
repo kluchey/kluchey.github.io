@@ -1,9 +1,14 @@
 ﻿.header {
 	padding: 5px;
+	background-color: white;
 	border-bottom: 1px solid #dbdbdb;
 }
 
 .jumbotron {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.fixed {
+	position: fixed;
 }
