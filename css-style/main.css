@@ -2,6 +2,12 @@
 	padding: 5px;
 	background-color: white;
 	border-bottom: 2px solid #dbdbdb;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: fixed;
+	height: auto;
+	z-index: 999;
 }
 
 .jumbotron {
@@ -10,8 +16,11 @@
 	margin-bottom: 0px;
 	background-color: #e1eaea;
 	border-bottom: 2px solid #dbdbdb;
+	position: relative;
+	top: 190px;
 }
 
 .footer {
-	
+	position: relative;
+	top: 190px;
 }
