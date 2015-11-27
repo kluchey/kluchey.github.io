@@ -1,4 +1,8 @@
-﻿.header {
+﻿body {
+	background-color: #e1eaea;
+}
+
+.header {
 	padding: 5px;
 	background-color: white;
 	border-bottom: 2px solid #dbdbdb;
@@ -8,6 +12,8 @@
 	position: fixed;
 	height: auto;
 	z-index: 999;
+	background-color:rgba(0, 0, 0, 0.9);
+	color: white;
 }
 
 .jumbotron {
@@ -23,4 +29,5 @@
 .footer {
 	position: relative;
 	top: 190px;
+	background-color: white;
 }
