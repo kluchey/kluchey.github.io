@@ -1,14 +1,17 @@
 ﻿.header {
 	padding: 5px;
 	background-color: white;
-	border-bottom: 1px solid #dbdbdb;
+	border-bottom: 2px solid #dbdbdb;
 }
 
 .jumbotron {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-bottom: 0px;
+	background-color: #e1eaea;
+	border-bottom: 2px solid #dbdbdb;
 }
 
-.fixed {
-	position: fixed;
+.footer {
+	
 }

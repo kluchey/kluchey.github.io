@@ -1,9 +1,25 @@
-﻿var main = function() {
-
+﻿/*
+var main = function() {
+	
+});
 };
+*/
+
+// $(document).ready(main);
 
 $(document).ready(function(){
 	$('#webpage').fadeIn(1000);
 });
-
-$(document).ready(main);
+/*
+	$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 0) {
+        $('div.header').css({
+			"position": "fixed"
+		});
+    } else {
+        $('div.header').css({
+			"position": "static"
+		});
+	};
+	});
+	*/
