@@ -1,5 +1,5 @@
 ﻿body, .jumbotron {
-	background-color: #e1eaea;
+	background-color: #ffffff;
 }
 
 .header {
@@ -22,12 +22,12 @@
 	margin-bottom: 0px;
 	border-bottom: 2px solid #dbdbdb;
 	position: relative;
-	top: 190px;
+	top: 50px;
 }
 
 .footer {
 	position: relative;
-	top: 190px;
+	top: 50px;
 	background-color: white;
 }
 
