@@ -20,7 +20,12 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 0px;
-	border-bottom: 2px solid #dbdbdb;
+	border-bottom: 0px solid #dbdbdb;
+	position: relative;
+	top: 50px;
+}
+
+.exp {
 	position: relative;
 	top: 50px;
 }
@@ -31,3 +36,6 @@
 	background-color: white;
 }
 
+.hide {
+	display: none;
+}
