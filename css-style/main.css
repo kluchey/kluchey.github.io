@@ -39,3 +39,33 @@
 .gone {
 	display: none;
 }
+
+ul.supadupa {
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+ul.supadupa img{
+	height: 20px;
+	width: auto;
+}
+
+ul.supadupa li{
+	margin: 5px;
+	padding: 10px;
+	background-color: #dbdbdb;
+	list-style: none;
+}
+
+ul.favlinks li:hover{
+	background-color: #dbffdb;
+}
+
+ul.favtools li:hover{
+	background-color: #dbdbff;
+}
+
+ul.favcom li:hover{
+	background-color: #ffdbdb;
+}
