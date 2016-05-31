@@ -23,6 +23,17 @@
 	border-bottom: 0px solid #dbdbdb;
 	position: relative;
 	top: 0px;
+	background: url(../images/birch-evergreen.jpg) no-repeat;
+	background-size: 100% auto;
+	background-position: left top;
+	background-repeat: no-repeat;
+	color:#ffffff;
+}
+
+@media screen and (max-width: 451px) {
+	.jumbotron {
+		background-size: auto 100%;
+	}
 }
 
 .exp {
