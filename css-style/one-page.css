@@ -1,39 +1,36 @@
 html { 
-  background: url(../images/birch-evergreen.jpg) no-repeat center center fixed; 
+  background: url(../images/blue-tele-tree-web.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+h1, h2, p, a {
+	color: white;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+	padding-left:3vw;
+	font-weight: normal;
+}
+
 #webpage {
 	position:absolute;
-	top: 32%;
+	top: 23%;
 	left: 0%;
 	width: 100%;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.42);
+	background: -webkit-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Fx 3.6-15*/
+	background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.42)); /*Standard*/
 }
 
 h1 {
-	color: white;
-	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
-	letter-spacing: 20px;
-	font-weight: normal;
-	padding-left:20px;
-}
-
-.header {
-	padding: 5px;
-	background-color: white;
-	border-bottom: 2px solid #dbdbdb;
-	left: 0;
-	right: 0;
-	margin: auto;
-	position: fixed;
-	height: auto;
-	z-index: 999;
-	background-color:rgba(0, 0, 0, 0.9);
-	color: white;
+	letter-spacing: calc(13px + 2vw);
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .jumbotron {
@@ -43,58 +40,4 @@ h1 {
 	border-bottom: 0px solid #dbdbdb;
 	position: relative;
 	top: 0px;
-}
-
-.exp {
-	position: relative;
-	top: 0px;
-}
-
-.footer {
-	position: relative;
-	top: 0px;
-	background-color: white;
-}
-
-.gone {
-	display: none;
-}
-
-ul.supadupa {
-	padding-left: 0;
-	margin-bottom: 0;
-	text-align: center;
-}
-
-ul.dropdown-menu img{
-	height: 20px;
-	width: auto;
-}
-
-ul.supadupa img{
-	height: 20px;
-	width: auto;
-}
-
-ul.supadupa li{
-	margin: 5px;
-	padding: 10px;
-	background-color: #ECEFF1;
-	list-style: none;
-	font-size: 15px;
-	font-weight: bold;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-}
-
-ul.favlinks li:hover{
-	background-color: #4CAF50;
-}
-
-ul.favtools li:hover{
-	background-color: #2196F3;
-}
-
-ul.favcom li:hover{
-	background-color: #FFC107;
 }
