@@ -1,0 +1,80 @@
+body, .jumbotron {
+	background-color: #ffffff;
+}
+
+.header {
+	padding: 5px;
+	background-color: white;
+	border-bottom: 2px solid #dbdbdb;
+	left: 0;
+	right: 0;
+	margin: auto;
+	position: fixed;
+	height: auto;
+	z-index: 999;
+	background-color:rgba(0, 0, 0, 0.9);
+	color: white;
+}
+
+.jumbotron {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	border-bottom: 0px solid #dbdbdb;
+	position: relative;
+	top: 0px;
+}
+
+.exp {
+	position: relative;
+	top: 0px;
+}
+
+.footer {
+	position: relative;
+	top: 0px;
+	background-color: white;
+}
+
+.gone {
+	display: none;
+}
+
+ul.supadupa {
+	padding-left: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+ul.dropdown-menu img{
+	height: 20px;
+	width: auto;
+}
+
+ul.supadupa img{
+	height: 20px;
+	width: auto;
+}
+
+ul.supadupa li{
+	margin: 5px;
+	padding: 10px;
+	background-color: #ECEFF1;
+	list-style: none;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+
+ul.favlinks li:hover{
+	background-color: #4CAF50;
+}
+
+ul.favtools li:hover{
+	background-color: #2196F3;
+}
+
+ul.favcom li:hover{
+	background-color: #FFC107;
+}
