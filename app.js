@@ -32,3 +32,36 @@ $(document).ready(function(){
 	});
 	
 	*/
+
+	//Simple, Finite Comic Viewer
+
+var comicData = {
+	total:2,
+	currentView:2,
+	imageList:["",""]
+};
+
+var comic = document.getElementByID("comix");
+
+function nextComic() {
+	comic.src = comicData.imageList[comicData.currentView];
+	comicData.currentView++;
+	if (comicData.total == comicData.currentView) {
+		//hide button
+		return;
+	}
+	if (comicData.currentView != 1) {
+		//reveal button
+		return;
+	} else return;
+}
+
+function prevComic() {
+	var cur = comicData.currentView;
+	comic.src = comicData.imageList[comicData.currentView - 2];
+	comicData.currentView--;
+	if (comicData.currentView == 1) {
+		//hide button
+		return;
+	} else return;
+}
