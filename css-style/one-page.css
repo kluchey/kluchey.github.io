@@ -9,20 +9,36 @@ html {
 h1, h2, p, a {
 	color: white;
 	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
-	padding-left:3vw;
 	font-weight: normal;
+	display: inline-block;
+	padding-bottom: 30px;
 }
 
 #webpage {
 	position:absolute;
-	top: 23%;
+	top: 0%;
 	left: 0%;
 	width: 100%;
-	background-color: rgba(0,0,0,0.42);
-	background: -webkit-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Safari 5.1-6*/
-	background: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Opera 11.1-12*/
-	background: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Fx 3.6-15*/
-	background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.42)); /*Standard*/
+
+	/* background-color: rgba(0,0,0,0.42);
+	/* background: -webkit-linear-gradient(right,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Safari 5.1-6*/
+	/* background: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Opera 11.1-12*/
+	/* background: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.42)); /*Fx 3.6-15*/
+	/* background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.42)); /*Standard*/
+}
+
+#social-media {
+	padding-top: 0px;
+}
+
+#social-media ul {
+	padding: 0;
+	list-style-type: none;
+
+}
+
+#social-media > a:not(:first-child) {
+	padding-left: calc(5px + 1vw);
 }
 
 h1 {
@@ -30,11 +46,12 @@ h1 {
 	padding-bottom: 0px;
 	margin: 0px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .jumbotron {
 	padding-top: 20px;
+	padding-left: 3vw;
 	padding-bottom: 20px;
 	margin-bottom: 0px;
 	border-bottom: 0px solid #dbdbdb;
