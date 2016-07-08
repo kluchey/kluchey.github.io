@@ -57,7 +57,7 @@ h1 {
 }
 
 .jumbotron {
-	padding-top: 20px;
+	padding-top: calc(20px + 1vw);
 	padding-left: calc(20px + 1vw);
 	padding-bottom: 20px;
 	margin-bottom: 0px;
