@@ -11,7 +11,7 @@ h1, h2, p, a {
 	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
 	font-weight: normal;
 	display: inline-block;
-	padding-bottom: 30px;
+	padding-bottom: calc(10px + 1vw);
 }
 
 #webpage {
