@@ -37,6 +37,13 @@ h1, h2, p, a {
 
 }
 
+.large-icons i {
+	font-size: 30px;
+}
+.large-icons a {
+	text-decoration: none;
+}
+
 #social-media > a:not(:first-child) {
 	padding-left: calc(5px + 1vw);
 }
@@ -46,7 +53,7 @@ h1 {
 	padding-bottom: 0px;
 	margin: 0px;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 .jumbotron {
