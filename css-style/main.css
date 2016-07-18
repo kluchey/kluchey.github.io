@@ -1,4 +1,10 @@
-﻿body, .jumbotron {
+﻿* {
+  margin: 0px;
+  padding: 0px; 
+  outline: none;
+  border: 0px;
+}
+body, .jumbotron {
 	background-color: #ffffff;
 }
 
@@ -61,7 +67,35 @@ ul.dropdown-menu img{
 	height: 20px;
 	width: auto;
 }
-
+ul.poetry {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+ul.poetry li {
+	padding: 0;
+	margin: 0;
+	background-color: #666666;
+	border-bottom: 1px solid #CCCCCC;
+	list-style-type: none;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 200px;
+}
+ul.poetry li:nth-child(even) {
+	background-color: #000000;
+}
+ul.poetry li:hover {
+	background-color: #4CAF50;
+}
+ul.poetry a {
+	text-decoration: none;
+	color: black;
+}
+ul.poetry img {
+	width: 100%;
+}
 ul.supadupa img{
 	height: 20px;
 	width: auto;
@@ -88,4 +122,17 @@ ul.favtools li:hover{
 
 ul.favcom li:hover{
 	background-color: #FFC107;
+}
+.centreText {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	letter-spacing: 2vw;
+	line-height: 42px;
+}
+.topText {
+	position: relative;
+	top:50%;
+	display: block;
+	color: white;
 }
