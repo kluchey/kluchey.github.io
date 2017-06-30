@@ -58,6 +58,10 @@ h3 {
 	color: #337ab7;
 }
 
+#social-media a {
+	padding-bottom: calc(8px + 1vw);
+}
+
 .large-icons i {
 	font-size: 30px;
 }
@@ -89,11 +93,13 @@ h1 {
 
 .row {
 	padding-top: 25px;
+	padding-bottom: 0px;
 }
 
 .row p, a {
 	color: black;
 	font-size: 16px;
+	padding-bottom: 0px;
 }
 
 
