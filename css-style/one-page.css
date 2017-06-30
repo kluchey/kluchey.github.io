@@ -50,6 +50,10 @@ h3 {
 	list-style-type: none;
 }
 
+#social-media li {
+	display: inline;
+}
+
 #social-media a {
 	 color: white;
 }
@@ -59,7 +63,8 @@ h3 {
 }
 
 #social-media a {
-	padding-bottom: calc(8px + 1vw);
+	padding-left: calc(4px + 0.5vw);
+	padding-right: calc(4px + 0.5vw)
 }
 
 .large-icons i {
@@ -74,12 +79,12 @@ h3 {
 }
 
 h1 {
-	letter-spacing: calc(13px + 2vw);
+	letter-spacing: calc(8px + 2vw);
 	padding-bottom: 0px;
 	margin: 0px;
 	margin-top: 10px;
 	margin-bottom: 25px;
-	font-size: 40px;
+	font-size: 8vw;
 }
 
 .first {
