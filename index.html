@@ -20,6 +20,19 @@
 	<link rel="shortcut icon" href="images/buttons/icon_white.svg" />
 	<!--JQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!--Instafeed.js-->
+	<script type="text/javascript" src="instafeed.js"></script>
+	<script type="text/javascript">
+		var userFeed = new Instafeed({
+			get: 'user',
+			userId: '3678681',
+			accessToken: '3678681.d99b2f9.1ab384997502432da8d03a8e0d6fda06',
+			limit: 3,
+			resolution: 'low_resolution',
+			template: '<a href="{{link}}"><img class="instaimage" src="{{image}}" width="277px"/></a>'
+		});
+		userFeed.run();
+	</script>
 	<!--Stylesheets-->
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -27,6 +40,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
 		<link rel="stylesheet" href="css-style/one-page.css">
 </head>
+<!--
+
+
 <!-- Neck -->
 <body>
 <!--Entire Webpage Content Wrapper-->
@@ -48,19 +64,15 @@
 		</div>
 	</div>
 	<div class="container">
-		<div class="row" style="">
-			<div class="col-md-3">
-				<img id="webp" class="centre-block" src="images/webp_500.png" alt="Profile Picture" style="width:auto;height:200px;display:block;margin-left:auto;margin-right:auto;margin-bottom:10px;">
-			</div>
-			<div class="col-md-8">
-				<h2>Tutoring Available!</h2>
-				<p>
-					Mathematics education is my passion.  I believe mathematics is a skill of absolute importance to young people today. I have been a tutor for over five years with experience at all age levels and skill sets.  If you are seeking tutoring for grades 8 through 12, first year college or university, you should contact me at <b><a href="mailto:k@cluchey.ca">k@cluchey.ca</a></b>. I am looking to take on two to five students in Vaughn are beginning September 2017.
-				</p>
-			</div>
+		<div class="row">
+				<div id="instafeed" class="text-center"></div>
 		</div>
 		<div class="row">
 			<div class="col-md-6">
+				<h2>Tutoring Available!</h2>
+				<p>
+					Mathematics education is my passion.  I believe mathematics is a skill of absolute importance to young people today. I have been a tutor for over five years with experience at all age levels and skill sets.  If you are seeking tutoring for grades 8 through 12, first year college or university, you should contact me at <b><a href="mailto:k@cluchey.ca">k@cluchey.ca</a></b>. I am looking to take on two to five students in Vaughn beginning September 2017.
+				</p>
 				<h3>Tutoring Qualifications</h3>
 				<p>
 					Presently, I am a candidate for a Bachelor of Education at York University. I hold a Bachelor of Mathematics in Honours Combinatorics and Optimization (C&O), Pure Mathematics Minor, Philosophy Minor, Co-operative Program (With Distinction) from the University of Waterloo. 
@@ -75,11 +87,6 @@
 						<li>Taught 16 two-hour classes of 35-40 students each, relating topics such as algorithms, estimation, formal logic, and knot theory to the grade 6-8 level.</li>
 						<li>In addition, I helped in the marking of the Canadian Senior Mathematics Contest and creation of problems for Problem of the Week for the CEMC.  I also worked as the event photographer and a supervisor for the Programming Challenge 4 Girls.</li>
 					</ul>
-				</ul>
-			</div>
-			<div class="col-md-6">
-				<h3> </h3>
-				<ul>
 					<li><h4>Learning Assistant at Sheridan College</h4> (Winter 2015)</li>
 					<ul>
 						<li>Led one-on-one tutoring appointments and large tutorial sessions</li>
@@ -102,6 +109,20 @@
 						<li>Performed assessment of new students' ability to identify their tutoring program needs</li>
 					</ul>
 				</ul>
+			</div>
+			<div class="col-md-6">
+				<h2>Photography Available!</h2>
+				<p>
+					I am an amateur photographer looking to broaden my craft. Although mainly a nature and lifestyle photographer, I offer my eye for small event and portrait photography. If you are interested in such services please contact me at <b><a href="mailto:k@cluchey.ca">k@cluchey.ca</a></b> with a description of the event or portrait you are requesting. For example, a common request is for a portrait for social media use. This portrait may be professional-looking (such as for LinkedIn) or personal (such as for Facebook/Twitter).
+				</p>
+				<p>
+					My prices are negotiable. I usually ask for $20 per photo delivered (high-res JPEG for personal and non-commercial use) up to five delivered images. After five, depending on the service, we can negotiate other pricing - such as event or photoshoot. I do not print images myself but I will print at a facility of my choice and deliver, if requested.
+				</p>
+				<h3>Photography Qualifications</h3>
+				<p>
+					Please visit my <b><a href="https://flickr.com/photos/kierancluchey">Flickr Page</a></b> and <b><a href="https://instagram.com/nareikc">Instagram</a></b> to view my main galleries.
+				</p>
+				
 			</div>
 		</div>
 		<div class="row">
