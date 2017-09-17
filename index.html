@@ -33,12 +33,27 @@
 		});
 		userFeed.run();
 	</script>
+	<!--jFlickr-->
+	<script type="text/javascript">
+		var flickrApiKey = '8d96a99e3c47d7b2edee30d23d7c6160'; // Your Flickr API key goes here
+		var flickrImgLimit = 12; // Optional - Per set image limit (defaults to 12)
+		var flickrImgSort = 'random'; // Optional - Image sorting: default | random
+		var modalClass = 'simplebox'; // Optional - CSS class to use on image links for lightbox integration
+		(function() {
+			var fse = document.createElement('script'); fse.type = 'text/javascript'; fse.async = true;
+			fse.src = 'https://cdn.joomlaworks.org/js/flickrsetembedder.js?v=1.2';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(fse);
+		})();
+	</script>
 	<!--Stylesheets-->
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!--Custom-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.css">
 		<link rel="stylesheet" href="css-style/one-page.css">
+		<script src="simplebox.js"></script>
+		<link rel="stylesheet" href="simplebox.css">
+		<link rel="stylesheet" href="simplebox_ie6.css">
 </head>
 <!--
 
@@ -113,7 +128,7 @@
 			<div class="col-md-6">
 				<h2>Photography Available!</h2>
 				<p>
-					I am an amateur photographer looking to broaden my craft. Although mainly a nature and lifestyle photographer, I offer my eye for small event and portrait photography. If you are interested in such services please contact me at <b><a href="mailto:k@cluchey.ca">k@cluchey.ca</a></b> with a description of the event or portrait you are requesting. For example, a common request is for a portrait for social media use. This portrait may be professional-looking (such as for LinkedIn) or personal (such as for Facebook/Twitter).
+					I am an amateur photographer looking to broaden my craft. Although mainly a nature and lifestyle photographer, I offer my eye for small event, portrait, and pet photography. If you are interested in such services please contact me at <b><a href="mailto:k@cluchey.ca">k@cluchey.ca</a></b> with a description of the event or portrait you are requesting. For example, a common request is for a portrait for social media use. This portrait may be professional-looking (such as for LinkedIn) or personal (such as for Facebook/Twitter).
 				</p>
 				<p>
 					My prices are negotiable. I usually ask for $20 per photo delivered (high-res JPEG for personal and non-commercial use) up to five delivered images. After five, depending on the service, we can negotiate other pricing - such as event or photoshoot. I do not print images myself but I will print at a facility of my choice and deliver, if requested.
@@ -122,6 +137,8 @@
 				<p>
 					Please visit my <b><a href="https://flickr.com/photos/kierancluchey">Flickr Page</a></b> and <b><a href="https://instagram.com/k.cluchey">Instagram</a></b> to view my main galleries.
 				</p>
+				
+				<a data-source="flickr" data-limit="6" href="https://www.flickr.com/photos/kierancluchey/sets/72157686721921813/">Click here to view my full Portfolio</a>
 				
 			</div>
 		</div>
