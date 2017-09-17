@@ -158,10 +158,10 @@ ul.flickrSet li a.flickrImageLink img {display:none;} /* Hiding inline title and
 ul.flickrSet li.flickrSetClr {clear:both; height:0; line-height:0; float:none; padding:0; margin:0; border:none;}
 
 @media all and (min-width:321px) and (max-width:600px) {
-ul.flickrSet li {float:left; width:33%; padding:0; margin:0;}
-ul.flickrSet li a.flickrImageLink {height:200px;}
+ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
+ul.flickrSet li a.flickrImageLink {height:250px;}
 }
 @media all and (max-width:320px) {
-ul.flickrSet li {float:left; width:50%; padding:0; margin:0;}
-ul.flickrSet li a.flickrImageLink {height:120px;}
+ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
+ul.flickrSet li a.flickrImageLink {height:130px;}
 }
