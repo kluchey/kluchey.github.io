@@ -159,7 +159,7 @@ ul.flickrSet li.flickrSetClr {clear:both; height:0; line-height:0; float:none; p
 
 @media all and (min-width:321px) and (max-width:600px) {
 ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
-ul.flickrSet li a.flickrImageLink {height:250px;}
+ul.flickrSet li a.flickrImageLink {height:200px;}
 }
 @media all and (max-width:320px) {
 ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
