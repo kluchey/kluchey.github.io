@@ -8,16 +8,25 @@ body, .jumbotron {
 	background-color: #ffffff;
 }
 
-h1, h4 {
+a {
+	color: darkblue;
+}
+
+h1 {
 	color: white;
+	font-size: 50px;
 }
 p {
 	margin: 5px;
 	padding: 10px;
-	background-color: rgba(225, 245, 255, 0.9);
+	background-color: rgba(225, 245, 255, 1);
 	font-size: 15px;
 	margin-top: 1em;
     margin-bottom: 1 em;
+	border-radius: 3px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: rgb(66, 66, 66);
 }
 
 .header {
@@ -30,19 +39,33 @@ p {
 	position: fixed;
 	height: auto;
 	z-index: 999;
-	background-color:rgba(0, 0, 0, 0.9);
+	background-color:rgba(0, 0, 0, 1);
 	color: white;
 }
 
 #webpage {
-	background: url(../images/birch-evergreen.jpg) repeat center center fixed;
+	background: url(../images/tranquil-tree.jpg) repeat center center fixed;
 	background-size: 100% auto;
 	background-position: left top;
 	box-shadow: 0px 10px 15px rgba(0,0,0,.4);
 }
 
+@media screen and (min-width: 790px) {
+  #webpage {
+    background-position: left 55%;
+  }
+}
+
 .full-height {
 	height: 100vh;
+}
+
+.row {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	border-bottom: 0px solid #dbdbdb;
+	border-radius: 3px;
 }
 
 .jumbotron {
@@ -137,24 +160,24 @@ ul.supadupa img{
 ul.supadupa li{
 	margin: 5px;
 	padding: 10px;
-	background-color: rgba(225, 245, 255, 0.9);
+	background-color: rgba(225, 245, 255, 1);
 	list-style: none;
 	font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	text-transform: capitalize;
+	border-radius: 3px;
 }
 
 ul.favlinks li:hover{
-	background-color: #4CAF50;
-}
-
-ul.favtools li:hover{
 	background-color: #2196F3;
 }
 
-ul.favcom li:hover{
+ul.favtools li:hover{
 	background-color: #FFC107;
+}
+
+ul.favcom li:hover{
+	background-color: #4CAF50;
 }
 .centreText {
 	margin-left: auto;
