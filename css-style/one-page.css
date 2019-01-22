@@ -10,7 +10,7 @@
 
 .first {
     margin-bottom: 0px;
-    background: url(../images/bwback.jpg) no-repeat center center fixed; 
+    background: url(../images/bw-falls.jpg) no-repeat center center fixed; 
     background-position: center center;
     background-size: cover;
 	color: white;
@@ -71,8 +71,8 @@ h3 {
 .instaimage {
 	border-style: solid;
 	border-width: 5px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-top: 10px;
 	border-color: white;
 }
@@ -80,7 +80,7 @@ h3 {
 .instaimage:hover {
 	border-style: solid;
 	border-width: 5px;
-	border-color: orange;
+	border-color: grey;
 }
 
 .large-icons i {
@@ -147,12 +147,25 @@ h1 {
 
 
 /* This is just some basic responsive styling */
-ul.flickrSet {padding:0; margin:0; list-style:none;}
-ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
-ul.flickrSet li a:hover {
-	
+ul.flickrSet {
+	padding:0;
+	margin:0;
+	list-style:none;
 }
-ul.flickrSet li a.flickrImageLink {width:100%; height:250px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
+ul.flickrSet li {float:left; width:48%; padding:0.25%; margin:0;
+}
+
+ul.flickrSet li a {
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+}
+ul.flickrSet li a:hover {
+	border-style: solid;
+	border-width: 5px;
+	border-color: grey;
+}
+ul.flickrSet li a.flickrImageLink {width:100%; height:312.5px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
 ul.flickrSet li a.flickrImageLink span,
 ul.flickrSet li a.flickrImageLink img {display:none;} /* Hiding inline title and image element */
 ul.flickrSet li.flickrSetClr {clear:both; height:0; line-height:0; float:none; padding:0; margin:0; border:none;}

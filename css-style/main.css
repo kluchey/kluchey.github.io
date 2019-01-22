@@ -27,7 +27,7 @@ h1, h4 {
 }
 
 #webpage {
-	background: url(../images/birch-evergreen.jpg) repeat center center fixed;
+	background: url(../images/bw-falls.jpg) repeat center center fixed;
 	background-size: 100% auto;
 	background-position: left top;
 	box-shadow: 0px 10px 15px rgba(0,0,0,.4);
@@ -134,7 +134,7 @@ ul.supadupa li{
 	font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 1px;
-	text-transform: capitalize;
+	text-transform: none;
 }
 
 ul.favlinks li:hover{
@@ -148,6 +148,11 @@ ul.favtools li:hover{
 ul.favcom li:hover{
 	background-color: #FFC107;
 }
+
+ul.favstreams li:hover{
+	background-color: #ef5350
+}
+
 .centreText {
 	margin-left: auto;
 	margin-right: auto;
