@@ -38,14 +38,23 @@ function fire() {
 
 	var option = $('#gameMode :selected').val();
 	switch (option) {
-		case 'spanish':
-			sessionData = spanishData.slice(0);
+		case 'french78':
+			sessionData = french78Data.slice(0);
 			break;
-		case '2knouns':
-			sessionData = data.slice(0);
+		case 'french67':
+			sessionData = french67Data.slice(0);
 			break;
-		case 'movies':
-			sessionData = movieData.slice(0);
+		case 'french5':
+			sessionData = french5Data.slice(0);
+			break;
+		case 'french34':
+			sessionData = french34Data.slice(0);
+			break;
+		case 'frenchnouns':
+			sessionData = frenchnounsData.slice(0);
+			break;
+		case 'frenchverbs':
+			sessionData = frenchverbsData.slice(0);
 			break;
 		case 'custom':
 			if (customData.length === 0) {
