@@ -8,12 +8,19 @@
 }
 */
 
+* {
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+	font-weight: normal;
+}
+
 .first {
     margin-bottom: 0px;
     background: url(../images/bw-falls.jpg) no-repeat center center fixed; 
     background-position: center center;
     background-size: cover;
 	color: white;
+    text-align: center;
+	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.4);
 }
 
 h1, h2, p, a {
@@ -21,12 +28,23 @@ h1, h2, p, a {
 	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
 	font-weight: normal;
 	display: inline-block;
-	padding-bottom: calc(10px + 1vw);
+	padding-bottom: calc(0.5vw);
 }
 
 h3 {
+    display: inline-block;
 	font-weight: bold;
 	padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+
+h4 {
+    font-style: italic;
+    display: inline-block;
+}
+
+li:last-child {
+    padding-bottom: 1vh;
 }
 /*
 #webpage {
@@ -103,11 +121,6 @@ h1 {
 	font-size: 8vw;
 }
 
-.first {
-	text-align: center;
-	box-shadow: 0px 10px 15px rgba(0,0,0,.4);
-}
-
 .vcentre {
 	padding-top: calc(20px + 5vh);
 }
@@ -117,7 +130,7 @@ h1 {
 	padding-bottom: 0px;
 }
 
-.row p, a {
+.row p, a, li {
 	color: black;
 	font-size: 16px;
 	padding-bottom: 0px;
@@ -165,11 +178,15 @@ ul.flickrSet li a:hover {
 	border-width: 5px;
 	border-color: grey;
 }
-ul.flickrSet li a.flickrImageLink {width:100%; height:312.5px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
+ul.flickrSet li a.flickrImageLink {width:100%; height:200px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
 ul.flickrSet li a.flickrImageLink span,
 ul.flickrSet li a.flickrImageLink img {display:none;} /* Hiding inline title and image element */
 ul.flickrSet li.flickrSetClr {clear:both; height:0; line-height:0; float:none; padding:0; margin:0; border:none;}
 
+@media all and (min-width:601px) and (max-width:991px) {
+ul.flickrSet li {float:left; width:31%; padding:1%; margin:0;}
+ul.flickrSet li a.flickrImageLink {height:200px;}
+}
 @media all and (min-width:321px) and (max-width:600px) {
 ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
 ul.flickrSet li a.flickrImageLink {height:200px;}
