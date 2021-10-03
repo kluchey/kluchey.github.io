@@ -23,8 +23,16 @@
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.4);
 }
 
-h1, h2, p, a {
+h1, h2, p {
 	color: black;
+	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+	font-weight: normal;
+	display: inline-block;
+	padding-bottom: calc(0.5vw);
+}
+
+a {
+	color: darkgreen
 	font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
 	font-weight: normal;
 	display: inline-block;
@@ -130,7 +138,7 @@ h1 {
 	padding-bottom: 0px;
 }
 
-.row p, a, li {
+.row p, li {
 	color: black;
 	font-size: 16px;
 	padding-bottom: 0px;
@@ -165,7 +173,7 @@ ul.flickrSet {
 	margin:0;
 	list-style:none;
 }
-ul.flickrSet li {float:left; width:48%; padding:0.25%; margin:0;
+ul.flickrSet li {float:left; width:33%; padding:0.25%; margin:0;
 }
 
 ul.flickrSet li a {
@@ -178,14 +186,14 @@ ul.flickrSet li a:hover {
 	border-width: 5px;
 	border-color: grey;
 }
-ul.flickrSet li a.flickrImageLink {width:100%; height:200px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
+ul.flickrSet li a.flickrImageLink {width:100%; height:400px; overflow:hidden; display:block; background-position:50% 50%; background-repeat:no-repeat; text-indent:-999px; background-size:cover;}
 ul.flickrSet li a.flickrImageLink span,
 ul.flickrSet li a.flickrImageLink img {display:none;} /* Hiding inline title and image element */
 ul.flickrSet li.flickrSetClr {clear:both; height:0; line-height:0; float:none; padding:0; margin:0; border:none;}
 
 @media all and (min-width:601px) and (max-width:991px) {
-ul.flickrSet li {float:left; width:31%; padding:1%; margin:0;}
-ul.flickrSet li a.flickrImageLink {height:200px;}
+ul.flickrSet li {float:left; width:33%; padding:1%; margin:0;}
+ul.flickrSet li a.flickrImageLink {height:230px;}
 }
 @media all and (min-width:321px) and (max-width:600px) {
 ul.flickrSet li {float:left; width:48%; padding:1%; margin:0;}
